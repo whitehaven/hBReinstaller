@@ -26,3 +26,5 @@ function brewnuke
 But, inevitably packages get left that you don't want.
 
 So, this simple bash script just strips out everything, cleans up, and reinstalls the ones you are sure you like from the "Gospel" list, thus eliminating the clogging. I know it takes forever, but it sure is clean and it feels great when you know you have exactly what you need and nothing else. Like hiking.
+
+Note that it just dumps out the output. Use tee or pipe to /dev/null if you want the output in some different way; I decided that building in options would just be annoying.
