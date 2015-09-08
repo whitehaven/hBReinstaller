@@ -11,6 +11,9 @@ done;
 echo "---> Cleaning hBrew";
 brew cleanup -s --force;
 
+brew tap Homebrew/homebrew-dupes;
+brew tap beeftornado/rmtree;
+
 # Reinstall Gospel Packages
 echo "---> Reinstalling Gospel Packages"
 brew install gcc;
@@ -44,6 +47,7 @@ brew install pianobar;
 brew install pv;
 brew install sf-pwgen;
 brew install renameutils;
+brew install rmtree;
 brew install rsync;
 brew install rtorrent;
 brew install slurm;
